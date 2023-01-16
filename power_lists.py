@@ -29,13 +29,10 @@ def power_repr(*args) -> list:
 
 def power_ord(*args) -> list:
     """ accepts *unpacked list """
-    v = []
-    [v.append(ord(arg)) for arg in args]
-    return v
+    return [ord(arg) for arg in args]
 
 
 def power_chr(*args) -> list:
     """ accepts *unpacked list """
-    v = []
-    [v.append(chr(arg)) for arg in args]
-    return v
+    return [chr(arg) for arg in args]
+
