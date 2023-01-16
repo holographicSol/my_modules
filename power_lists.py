@@ -36,3 +36,17 @@ def power_chr(*args) -> list:
     """ accepts *unpacked list """
     return [chr(arg) for arg in args]
 
+
+def power_len(*args) -> list:
+    """ accepts *unpacked list """
+    return [len(arg) for arg in args]
+
+
+def power_max(*args) -> list:
+    """ accepts *unpacked list """
+    return [max(arg) for arg in args]
+
+
+def power_min(*args) -> list:
+    """ accepts *unpacked list """
+    return [min(arg) for arg in args]
