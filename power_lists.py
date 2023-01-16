@@ -24,9 +24,7 @@ def power_digit_checker(*args) -> list:
 
 def power_repr(*args) -> list:
     """ accepts *unpacked list """
-    v = []
-    [v.append(repr(arg)) for arg in args]
-    return v
+    return [repr(arg) for arg in args]
 
 
 def power_ord(*args) -> list:
