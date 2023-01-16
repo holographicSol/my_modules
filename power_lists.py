@@ -14,9 +14,7 @@ def power_type_checker(*args, typ: type) -> list:
 
 def power_make_type(*args, typ: type) -> list:
     """ accepts *unpacked list """
-    v = []
-    [v.append(typ(arg)) for arg in args]
-    return v
+    return [typ(arg) for arg in args]
 
 
 def power_digit_checker(*args) -> list:
