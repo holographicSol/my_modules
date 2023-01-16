@@ -49,5 +49,3 @@ def power_max(*args) -> list:
 def power_min(*args) -> list:
     return [min(arg) for arg in args]
 
-
-print(power_max([1,2,3]))
