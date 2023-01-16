@@ -9,9 +9,7 @@ def power_n(*args, power: int) -> list:
 
 def power_type_checker(*args, typ: type) -> list:
     """ accepts *unpacked list """
-    v = []
-    [v.append([args.index(arg), False]) for arg in args if not isinstance(arg, typ)]
-    return v
+    return [[args.index(arg), False] for arg in args if not isinstance(arg, typ)]
 
 
 def power_make_type(*args, typ: type) -> list:
