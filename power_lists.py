@@ -26,3 +26,10 @@ def power_digit_checker(*args) -> list:
     v = []
     [v.append([args.index(arg), False]) for arg in args if not str(arg).isdigit()]
     return v
+
+
+def power_repr(*args) -> list:
+    """ accepts *unpacked list """
+    v = []
+    [v.append(repr(arg)) for arg in args]
+    return v
