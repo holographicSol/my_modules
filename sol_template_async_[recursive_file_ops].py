@@ -35,8 +35,6 @@ async def main(_chunks) -> list:
 
 
 if __name__ == '__main__':
-    _manager = multiprocessing.Manager()
-    _d = _manager.dict()
 
     # Build File List
     fp = []
