@@ -38,7 +38,7 @@ if __name__ == '__main__':
 
     # Build File List
     fp = []
-    for diName, subdirname, filelist in os.walk('D:\\'):
+    for diName, subdirname, filelist in os.walk('C:\\'):
         for fname in filelist:
             fp.append(os.path.join(diName, fname))
 
